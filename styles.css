@@ -1,0 +1,36 @@
+.wrapper, html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#site {
+}
+
+body {
+    display: flex
+}
+
+.container {
+    margin: 50px;
+    display: flex;
+    flex: 1 0 60rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    border: 2px solid #a8dadc;
+    align-content: flex-start;
+
+}
+
+.singleGrid {
+    border: 1px solid wheat;
+    height: 30px;
+    width: 30px;
+}
+
+.controls {
+    display: flex;
+    flex-basis: 300px;
+    align-content: center;
+}
